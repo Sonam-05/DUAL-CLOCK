@@ -20,7 +20,7 @@ setInterval(() => {
 
     let hour = DATE.getHours();
     if(hour>12){
-        hour = 12 - hour ;
+        hour = hour - 12 ;
     }
     if(hour<10){
         hour = "0" + hour ;
